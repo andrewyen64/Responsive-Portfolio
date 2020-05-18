@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 980px;
+    margin: 0;
+    background-color: white;
+}
+
+.header {
+    border-bottom: solid silver;
+    max-width: 980px;
+}
+
+.name {
+    background-color: rgb(60, 181, 211);
+    padding: 27%;
+    border: double rgb(202, 202, 202);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+main {
+    padding-left: 5%;
+}
+
+main h2 {
+    padding-bottom: 20px;
+    color: rgb(60, 181, 211);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+#about-image {
+    border-style: ridge;
+    border-color: silver;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    max-width: 800px;
+    font-size: 22px;
+}
+
+footer {
+    margin-top: 40%;
+    padding: 30px;
+    padding-top: 20px;
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.fcontainer {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    clear: both;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0;
+        background-color: white;
+    }
+    
+    .header {
+        border-bottom: solid silver;
+    }
+    
+    .name {
+        background-color: rgb(60, 181, 211);
+        padding: 27%;
+        border: double rgb(202, 202, 202);
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    
+    main {
+        padding-left: 5%;
+    }
+    
+    main h2 {
+        padding-bottom: 20px;
+        color: rgb(60, 181, 211);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        line-height: 49px;
+    }
+    
+    #about-image {
+        border-style: ridge;
+        border-color: silver;
+        float: left;
+        margin-right: 20px;
+    }
+    
+    p {
+        max-width: 700px;
+        font-size: 22px;
+    }
+    
+    footer {
+        margin-top: 40%;
+        max-width: 768px;
+        padding: 30px;
+        padding-top: 20px;
+        clear: both;
+        font-size: 12px;
+        text-align: center;
+        background: #666;
+        border-top: 8px solid #4aaaa5;
+    }
+    
+    .fcontainer {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        clear: both;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 640px;
+        margin: 0;
+        background-color: white;
+    }
+    
+    .header {
+        border-bottom: solid silver;
+    }
+    
+    .name {
+        background-color: rgb(60, 181, 211);
+        padding: 27%;
+        border: double rgb(202, 202, 202);
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    
+    main {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    main h2 {
+        padding-bottom: 20px;
+        padding-left: 5%;
+        color: rgb(60, 181, 211);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        line-height: 49px;
+    }
+    
+    #about-image {
+        border-style: ridge;
+        border-color: silver;
+        float: left;
+        margin: 5px 140px;
+        width: 300px;
+        height: 360px;
+    }
+    
+    p {
+        max-width: 800px;
+        margin-top: 5%;
+        padding: 3% 5% 0 5%;
+        font-size: 22px;
+        clear: both;
+    }
+    
+    footer {
+        margin-top: 40%;
+        padding: 30px;
+        padding-top: 20px;
+        clear: both;
+        font-size: 12px;
+        text-align: center;
+        background: #666;
+        border-top: 8px solid #4aaaa5;
+    }
+    
+    .fcontainer {
+        width: 100%;
+        max-width: 980px;
+        margin: 0 auto;
+        clear: both;
+        color: #fff;
+    }
+}
+
