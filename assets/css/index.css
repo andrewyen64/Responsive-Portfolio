@@ -49,6 +49,7 @@ p {
 
 footer {
     margin-top: 40%;
+    max-width: 980px;
     padding: 30px;
     padding-top: 20px;
     clear: both;

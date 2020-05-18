@@ -25,6 +25,7 @@
 
 main {
     padding-left: 5%;
+    max-width: 800px;
 }
 
 main h2 {
@@ -70,6 +71,7 @@ h3 {
 
 footer {
     margin-top: 30%;
+    max-width: 980px;
     padding: 30px 0;
     padding-top: 20px;
     clear: both;
@@ -244,7 +246,7 @@ footer {
     
     footer {
         margin-top: 30%;
-        padding: 30px 0;
+        padding: 30px;
         padding-top: 20px;
         clear: both;
         font-size: 12px;
