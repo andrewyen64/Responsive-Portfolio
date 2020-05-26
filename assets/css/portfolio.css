@@ -69,6 +69,14 @@ h3 {
     line-height: 22px;
 }
 
+.projects a {
+    color: white;
+}
+
+.projects a:visited {
+    color: yellow;
+}
+
 footer {
     margin-top: 30%;
     max-width: 980px;
